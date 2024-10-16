@@ -1,0 +1,65 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Application</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        #chat-container { display: flex; flex-direction: column; height: 100vh; }
+        #messages { flex: 1; padding: 10px; list-style-type: none; overflow-y: scroll; }
+        #messages li { padding: 5px 10px; }
+        #messages li:nth-child(odd) { background: #f1f1f1; }
+        #form { display: flex; padding: 10px; background: #ddd; }
+        #input { flex: 1; padding: 10px; border: none; }
+        #send { padding: 10px; border: none; background: #4CAF50; color: white; cursor: pointer; }
+        #send:hover { background: #45a049; }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <ul id="messages"></ul>
+        <form id="form" action="">
+            <input id="input" autocomplete="off" placeholder="Type a message..." /><button id="send">Send</button>
+        </form>
+    </div>
+
+    <!-- Include Socket.IO client library -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io(); // Automatically connects to the server that served the page
+
+        const form = document.getElementById('form');
+        const input = document.getElementById('input');
+        const messages = document.getElementById('messages');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (input.value) {
+                socket.emit('chat message', input.value);
+                const item = document.createElement('li');
+                item.textContent = 'Me: ' + input.value;
+                messages.appendChild(item);
+                window.scrollTo(0, document.body.scrollHeight);
+                input.value = '';
+            }
+        });
+
+        socket.on('chat message', function(msg) {
+            if (msg.startsWith('Me: ')) return; // Skip messages sent by self
+            const item = document.createElement('li');
+            item.textContent = msg;
+            messages.appendChild(item);
+            window.scrollTo(0, document.body.scrollHeight);
+        });
+
+        socket.on('connect', () => {
+            console.log('Connected to server');
+        });
+
+        socket.on('disconnect', () => {
+            console.log('Disconnected from server');
+        });
+    </script>
+</body>
+</html>

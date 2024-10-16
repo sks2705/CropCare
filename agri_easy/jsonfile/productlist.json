@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "name": {
+      "en": "Genji",
+      "hi": "जेनजी",
+      "ta": "ஜென்ஜி"
+    },
+    "category": {
+      "en": "Fertilizer",
+      "hi": "खाद",
+      "ta": "சோதனை"
+    },
+    "imageUrl": "assets/images/n.png",
+    "type": {
+      "en": "Nitrogen",
+      "hi": "नाइट्रोजन",
+      "ta": "நைட்ரஜன்"
+    },
+    "desc": {
+      "en": "Urea fertilizer is cost-effective, easy to store, and supplies immediate nitrogen for healthy plant growth. It can be mixed with other fertilizers or applied on its own, making it suitable for all types of plants, soil, and crops. Urea is also an effective acidifier for plants that prefer acidic soil.",
+      "hi": "यूरिया खाद लागत-कुशल, स्टोर करने में आसान होती है, और पौधों की स्वस्थ वृद्धि के लिए तुरंत नाइट्रोजन प्रदान करती है। इसे अन्य खादों के साथ मिलाया जा सकता है या अकेले लगाया जा सकता है, जिससे यह सभी प्रकार की पौधों, मिट्टी और फसलों के लिए उपयुक्त होती है। यूरिया उन पौधों के लिए एक प्रभावी अम्लीयक है जो अम्लीय मिट्टी को पसंद करते हैं।",
+      "ta": "ஊரியா உரம் செலவழிக்கக்கூடியது, சேமிக்க எளிதாகும் மற்றும் ஆரோக்கியமான செடி வளர்ச்சிக்கான உடனடி நைட்ரஜனை வழங்குகிறது. இதை மற்ற உரங்களுடன் கலந்துவைக்கவும் அல்லது தனியாகப் பயன்படுத்தவும் முடியும், இது அனைத்து வகை செடிகள், மண் மற்றும் பயிர்களுக்கு பொருந்தும். அமிலமான மண்ணை விரும்பும் செடிகளுக்கு, ஊரியா ஒரு சிறந்த அமிலமூட்டியாகும்."
+    }
+  },
+  {
+    "id": 1,
+    "name": {
+      "en": "Hanzo",
+      "hi": "हान्जो",
+      "ta": "ஹான்சோ"
+    },
+    "category": {
+      "en": "Fertilizer",
+      "hi": "खाद",
+      "ta": "சோதனை"
+    },
+    "type": {
+      "en": "Phosphorus",
+      "hi": "फास्फोरस",
+      "ta": "பாஸ்பரஸ்"
+    },
+    "imageUrl": "assets/images/p.png",
+    "desc": {
+      "en": "Phosphorus is an essential element for plant growth as it plays a key role in metabolism, photosynthesis, nitrogen fixation, carbon metabolism, and energy transfer. It is also vital for seed formation, root growth, and flowering. Rock phosphate, a natural source of phosphorus, provides all these benefits to plants.",
+      "hi": "फास्फोरस पौधों की वृद्धि के लिए एक आवश्यक तत्व है क्योंकि यह चयापचय, प्रकाश संश्लेषण, नाइट्रोजन स्थिरीकरण, कार्बन चयापचय, और ऊर्जा स्थानांतरण में एक महत्वपूर्ण भूमिका निभाता है। यह बीज निर्माण, जड़ वृद्धि, और फूलने के लिए भी महत्वपूर्ण है। रॉक फास्फेट, फास्फोरस का एक प्राकृतिक स्रोत, पौधों को सभी लाभ प्रदान करता है।",
+      "ta": "பாஸ்பரஸ் செடிகளின் வளர்ச்சிக்கான அத்தியாவசியமான ஓர் அம்சமாகும், ஏனெனில் இது உடல் செயல்பாடுகள், ஒளிபடுமொழி, நைட்ரஜன் உறைவு, கார்பன் செயல்பாடு மற்றும் ஆற்றல் பரிமாற்றத்தில் முக்கிய பங்கு வகிக்கிறது. இது விதை உருவாக்கம், மூட்டுக் கிளை வளர்ச்சி மற்றும் பூக்கும் முக்கியமாகும். கல் பாஸ்பேட், பாஸ்பரஸின் ஒரு இயற்கை மூலமாக, செடிகளுக்கு அனைத்து நன்மைகளையும் வழங்குகிறது."
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Sigma",
+      "hi": "सिग्मा",
+      "ta": "சிக்மா"
+    },
+    "category": {
+      "en": "Fertilizer",
+      "hi": "खाद",
+      "ta": "சோதனை"
+    },
+    "type": {
+      "en": "Calcium",
+      "hi": "कैल्शियम",
+      "ta": "கால்சியம்"
+    },
+    "imageUrl": "assets/images/c.png",
+    "desc": {
+      "en": "Calcium fertilizer is a slow-release fertilizer that contains essential nutrients such as phosphorus, nitrogen, and proteins. It prevents nutrient deficiency, which can lead to premature bud drop and abnormal leaf colors. It also promotes the healthy development of fruits and flowers.",
+      "hi": "कैल्शियम खाद एक धीमी गति से रिलीज होने वाली खाद है जिसमें फास्फोरस, नाइट्रोजन और प्रोटीन जैसे आवश्यक पोषक तत्व होते हैं। यह पोषक तत्वों की कमी को रोकता है, जो जल्दी कलियों के गिरने और असामान्य पत्तियों के रंग का कारण बन सकता है। यह फलों और फूलों के स्वस्थ विकास को भी बढ़ावा देता है।",
+      "ta": "கால்சியம் உரம் ஒரு மெதுவாக வெளியேறும் உரமாகும், இது பாஸ்பரஸ், நைட்ரஜன் மற்றும் புரதங்களைப் போன்ற அத்தியாவசிய ஊட்டச்சத்துக்களை கொண்டுள்ளது. இது ஊட்டச்சத்து பற்றாக்குறையைத் தடுக்கும், இது புட்களை முன்கூட்டியே விழப்போக்கு மற்றும் சோடையான இலை நிறங்கள் ஏற்படுத்தக்கூடும். இது பழங்கள் மற்றும் மலர்களின் ஆரோக்கியமான வளர்ச்சியையும் ஊக்குவிக்கிறது."
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Junk Rat",
+      "hi": "जंक रैट",
+      "ta": "ஜங்க் ராட்"
+    },
+    "category": {
+      "en": "Pesticide",
+      "hi": "कीटनाशक",
+      "ta": "பூச்சிக்கொல்லி"
+    },
+    "type": {
+      "en": "Insecticide",
+      "hi": "कीटाणुनाशक",
+      "ta": "இறச்சீடம்"
+    },
+    "imageUrl": "assets/images/i.png",
+    "desc": {
+      "en": "Jump is an innovative insecticide formulation that uses fluid bed technology for ease in handling, measuring, and dosing. It enhances plant growth and provides longer protection against pests like stem borer, leaf folder, and thrips. It is targeted towards crops such as lentils, rice, grapes, and vegetables, and can be administered with 1-2 sprays depending on the severity of pest incidence.",
+      "hi": "जंप एक अभिनव कीटनाशक फॉर्मूला है जो हैंडलिंग, मापने और खुराक में आसानी के लिए तरल बिस्तर तकनीक का उपयोग करता है। यह पौधों की वृद्धि को बढ़ाता है और तना बोरर, पत्तियों के फोल्डर और थ्रिप्स जैसी कीटों से लंबे समय तक सुरक्षा प्रदान करता है। यह दाल, चावल, अंगूर और सब्जियों जैसी फसलों के लिए लक्षित है, और कीट संक्रमण की गंभीरता के आधार पर 1-2 स्प्रे के साथ प्रशासित किया जा सकता है।",
+      "ta": "ஜம்ப் என்பது கையாளுதல், அளவீட்டிற்கும், அளவீட்டிற்கும் எளிதாகவும் திரவக் கண்ணாடி தொழில்நுட்பத்தைப் பயன்படுத்துகிறது. இது செடியின் வளர்ச்சியை மேம்படுத்துகிறது மற்றும் தண்டு போரர், இலை தொகுப்பாளர் மற்றும் திரிப்ஸ் போன்ற பூச்சிகளுக்கு நீண்டகால பாதுகாப்பை வழங்குகிறது. இது பருப்பு, அரிசி, திராட்சை மற்றும் காய்கறிகள் போன்ற பயிர்களுக்கு இலக்கு வைக்கப்படுகிறது, மற்றும் பூச்சி தாக்கத்தின் அளவைப் பொறுத்து 1-2 ஸ்ப்ரேகளை நிர்வகிக்கலாம்."
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Kiriko",
+      "hi": "किरिको",
+      "ta": "கிரிகோ"
+    },
+    "category": {
+      "en": "Pesticide",
+      "hi": "कीटनाशक",
+      "ta": "பூச்சிக்கொல்லி"
+    },
+    "type": {
+      "en": "Fungicide",
+      "hi": "फफूंद नाशक",
+      "ta": "பூஞ்சை நாசினி"
+    },
+    "imageUrl": "assets/images/f.png",
+    "desc": {
+      "en": "Trichoderma viride is an organic biological agent that improves soil health and plant immunity, and increases crop yield. It controls soil fungus diseases by producing antibiotics, nutrients, and inducing plant resistance. It can be applied directly to individual plants or through seed treatment, root dipping, or potting soil mix. Its use promotes root growth, nutrient uptake, and better disease resistance.",
+      "hi": "ट्राइकोडर्मा विरिडे एक जैविक जैविक एजेंट है जो मिट्टी की सेहत और पौधों की प्रतिरक्षा को सुधारता है और फसल की पैदावार बढ़ाता है। यह एंटीबायोटिक्स, पोषक तत्वों का उत्पादन करके और पौधों की प्रतिरोधक क्षमता को उत्तेजित करके मिट्टी के फफूंद रोगों को नियंत्रित करता है। इसे व्यक्तिगत पौधों पर सीधे या बीज उपचार, जड़ों को डुबोने, या गमले की मिट्टी के मिश्रण के माध्यम से लागू किया जा सकता है। इसका उपयोग जड़ों की वृद्धि, पोषक तत्वों का अवशोषण और बेहतर रोग प्रतिरोध को बढ़ावा देता है।",
+      "ta": "டிரைக்கோடெர்மா விரிடே என்பது மண் ஆரோக்கியத்தை மற்றும் செடியின் நோயெதிர்ப்பு திறனை மேம்படுத்தும் மற்றும் பயிர் விளைவை அதிகரிக்கும் ஒரு உயிரியல் சக்தியாகும். இது அண்டிபயோடிக்கள், ஊட்டச்சத்துக்கள் மற்றும் செடியின் எதிர்ப்பு திறனை ஊக்குவிக்கின்றது. இது தனித்துவமாக ஒவ்வொரு செடியிலும் நேரடியாகப் பயன்படலாம் அல்லது விதை சிகிச்சை, வேர் நீர்த்தல் அல்லது கம்பம் நிலக்கரிய கலவையின் மூலம் முறைப்படுத்தலாம். அதன் பயன்பாடு, வேர் வளர்ச்சி, ஊட்டச்சத்து பெறுதல் மற்றும் சிறந்த நோயெதிர்ப்பு ஆகியவற்றைப் பெருக்குகிறது."
+    }
+  }
+]
